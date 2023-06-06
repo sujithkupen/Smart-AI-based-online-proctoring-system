@@ -1,0 +1,17 @@
+__pycache__/
+gaze_tracking/__pycache__/
+
+
+models/yolov3.weights
+
+
+flask_session/
+
+
+static/questions/
+
+
+static/volt/
+
+
+procxam-venv/

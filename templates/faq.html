@@ -1,0 +1,67 @@
+{% extends 'layout.html' %}
+{% block body %}
+<main>
+    <section class="d-flex align-items-center my-5 mt-lg-6 mb-lg-5">
+               <div class="container">
+                       <div class="col-12 d-flex align-items-center justify-content-center">
+                           <div class="bg-white p-4 p-lg-5 w-100 fmxw-1000">
+                               <div class="text-center text-md-center mb-4 mt-md-0">
+                                   <h1 class="mb-0 h3">FAQ's</h1>
+                               </div>
+                               <img src="{{ url_for('static', filename='questions_desc.png') }}">
+<div class="accordion" id="accordionExample1">
+    <div class="card card-sm card-body border-light mb-0">
+        <a href="#panel-1" data-target="#panel-1" class="accordion-panel-header" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="panel-1">
+            <span class="h6 mb-0 font-weight-bold">General FAQ's</span>
+            <span class="icon"><i class="fas fa-plus"></i></span>
+        </a>
+        <div class="collapse" id="panel-1">
+        <div class="card-body">
+        <div class="qanda">
+        <h5>
+        How does Procxam proctoring work? </h5>
+        <hr>
+        <p>
+        Procxam uses various AI tools like Yolo v3, OpenCV dnn, Dlib for detecting malpractice. 
+        </div>
+        <div class="qanda">
+            <h5>
+            What are other technologies used for the app? </h5>
+            <hr>
+            <p>
+            Frontend : HTML,CSS,JavaScript,Bootstrap
+            Backend : python(flask)
+            Database : MySQL
+            APIs : Stripe
+            </div>
+        
+        </div>
+        </div>
+        </div>
+
+
+    <div class="card card-sm card-body border-light">
+        <a href="#panel-4" data-target="#panel-4" class="accordion-panel-header" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="panel-4">
+            <span class="h6 mb-0 font-weight-bold">Support FAQs</span>
+            <span class="icon"><i class="fas fa-plus"></i></span>
+        </a>
+        <div class="collapse" id="panel-4">
+            <div class="card-body">
+                <div class="qanda">
+                <h5>
+                What kind of technical assistance do you provide? </h5>
+                <hr>
+                <p>
+                Technical and administrative support is available 24/7 by emailing <a href="mailto:procxam@gmail.com">procxam@gmail.com</a> or by <a href="tel:9XXXXXXXXX">calling +91 9XXXXXXXXX.</a></p>
+                </div>
+                </div>
+        </div>
+    </div>
+
+</div>
+</div>
+    </div>
+    </div>
+    </section>
+    </main>
+{% endblock %}
