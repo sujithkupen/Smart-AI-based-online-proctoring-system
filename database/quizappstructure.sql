@@ -383,15 +383,15 @@ ALTER TABLE `longtest`
 --
 -- Constraints for table `practicalqa`
 --
---ALTER TABLE `practicalqa`
-  --ADD CONSTRAINT `practicalqa_ibfk_1` FOREIGN KEY (`uid`) REFERENCES `users` (`uid`);
+-- ALTER TABLE `practicalqa`
+  -- ADD CONSTRAINT `practicalqa_ibfk_1` FOREIGN KEY (`uid`) REFERENCES `users` (`uid`);
 
 --
 -- Constraints for table `practicaltest`
 --
---ALTER TABLE `practicaltest`
-  --ADD CONSTRAINT `practicaltest_ibfk_1` FOREIGN KEY (`uid`) REFERENCES `users` (`uid`),
-  --ADD CONSTRAINT `practicaltest_ibfk_2` FOREIGN KEY (`uid`) REFERENCES `users` (`uid`);
+-- ALTER TABLE `practicaltest`
+  -- ADD CONSTRAINT `practicaltest_ibfk_1` FOREIGN KEY (`uid`) REFERENCES `users` (`uid`),
+  -- ADD CONSTRAINT `practicaltest_ibfk_2` FOREIGN KEY (`uid`) REFERENCES `users` (`uid`);
 
 --
 -- Constraints for table `proctoring_log`

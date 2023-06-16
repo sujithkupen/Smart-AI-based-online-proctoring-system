@@ -15,3 +15,9 @@ static/volt/
 
 
 procxam-venv/
+
+
+procxam-mac-venv/
+
+
+.DS_Store
