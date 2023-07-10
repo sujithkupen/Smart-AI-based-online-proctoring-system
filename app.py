@@ -31,16 +31,16 @@ import camera
 app = Flask(__name__)
 
 app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
+app.config['MYSQL_USER'] = 'Enter mysql username here'
 app.config['MYSQL_PORT'] = 3306
-app.config['MYSQL_PASSWORD'] = 'mysqlroot69'
+app.config['MYSQL_PASSWORD'] = 'Enter mysql password here'
 app.config['MYSQL_DB'] = 'quizapp'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 
-app.config['MAIL_SERVER'] = 'email-smtp.ap-south-1.amazonaws.com'
+app.config['MAIL_SERVER'] = 'Enter mail servername here'
 app.config['MAIL_PORT'] = 587
-app.config['MAIL_USERNAME'] = 'AKIAVQZSJEVMGBRDV7HR'
-app.config['MAIL_PASSWORD'] = 'BARPoWHyMYm/qbqOsCJByfqZcuq454oRe3KjLLgLfqgR'
+app.config['MAIL_USERNAME'] = 'Enter mail credentials here'
+app.config['MAIL_PASSWORD'] = 'Enter mail credentials here'
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USE_SSL'] = False
 
@@ -51,8 +51,8 @@ app.config['SESSION_TYPE'] = 'filesystem'
 app.config["TEMPLATES_AUTO_RELOAD"] = True
 
 stripe_keys = {
-    "secret_key": "Enter secret key",
-    "publishable_key": "pk_test_51MmyuXSFEemxzSC9bkYkhDBsFIvyfbbmaQsuEJxX8RtvtP56wIBamQpW5N4udLSgWf0GBiaxw0NjVRVkSr4rzABd00hjApIfdp",
+    "secret_key": "Enter stripe secret key here",
+    "publishable_key": "Enter stripe publishable key here",
 }
 
 stripe.api_key = stripe_keys["secret_key"]
